@@ -22,7 +22,7 @@ export class HomePage {
 
   scanCode(){
     this.scannedCode.scan().then(barcodeData =>{
-      this.scannedCode - barcodeData.text;
+      this.scannedCode = barcodeData.text;
     })
   }
 
